@@ -1,0 +1,15 @@
+name: up_eventos_flutter
+description: UP Eventos web em um aplicativo Flutter Android
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.13.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/web/
+    - assets/web/mobile/

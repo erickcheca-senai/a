@@ -1,0 +1,13 @@
+# UP Eventos — versão web (Stitch)
+
+Este pacote contém as telas HTML exportadas do Stitch, mantendo a identidade visual original em preto/grafite e dourado. As referências a “Alta Costura” foram removidas/substituídas por linguagem de eventos.
+
+## Como abrir
+1. Extraia o ZIP.
+2. Abra `index.html` no navegador para ver a página inicial.
+3. As demais telas estão disponíveis em arquivos HTML separados: `painel.html`, `meus-eventos.html`, `orcamento.html`, `datas.html`, `servicos.html`, `cadastro.html`, `login.html` e `galeria.html`.
+
+## Observações
+- Esta é a exportação visual HTML do Stitch; não é um sistema com banco de dados ou autenticação real.
+- Algumas fontes, ícones ou imagens remotas podem precisar de conexão com a internet.
+- Os links e ações de protótipo podem não estar conectados entre si.

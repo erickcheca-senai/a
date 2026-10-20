@@ -1,0 +1,20 @@
+UP EVENTOS — BASE FLUTTER PARA ANDROID STUDIO
+
+Este pacote coloca o site HTML dentro de um app Flutter usando WebView. As páginas HTML originais ficam em assets/web.
+
+COMO USAR
+1. No Android Studio, crie um projeto Flutter chamado up_eventos_flutter.
+2. Copie pubspec.yaml e a pasta lib/ deste pacote para a raiz do projeto Flutter (substitua lib/main.dart se necessário).
+3. Copie a pasta assets/ para a raiz do projeto.
+4. No terminal do Android Studio, execute: flutter pub get
+5. Execute em um celular Android ou emulador.
+
+PERMISSÕES DE CÂMERA
+Se o HTML usar <input type="file" accept="image/*" capture="environment">, o WebView pode abrir o seletor de fotos/câmera dependendo da versão Android/WebView. Para acesso direto à câmera por JavaScript/getUserMedia, será necessário configurar permissões Android e tratar a solicitação de permissão do WebView. Teste no aparelho real.
+
+IMPORTANTE
+- Esta é uma base de integração, não um APK pronto.
+- O site carregado localmente usa recursos externos (por exemplo fontes/CDNs) que podem exigir internet.
+- Login e dados não são sincronizados entre dispositivos automaticamente.
+- Revise o AndroidManifest.xml do projeto Flutter e adicione android.permission.CAMERA caso o app use a câmera. A permissão em runtime e o tratamento da WebView podem exigir código adicional.
+- Não substitua nem apague o projeto web original; esta pasta é apenas o app Flutter que o envolve.

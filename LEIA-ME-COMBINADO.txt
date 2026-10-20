@@ -1,0 +1,28 @@
+UP EVENTOS — WEB + MOBILE (HTML)
+
+COMO ABRIR
+1. Extraia o ZIP.
+2. Abra a pasta UP_Eventos_Web_Mobile_Combinado no VS Code.
+3. Abra index.html para ver o site web.
+4. Clique em “Ver telas mobile” no canto inferior direito ou abra mobile/index.html.
+
+ESTRUTURA
+- index.html e os outros HTML na raiz: site web original.
+- web_original/: cópia completa do pacote web original, incluindo prévias.
+- mobile/: protótipos HTML mobile e imagens de prévia.
+
+IMPORTANTE
+Os dois conjuntos foram reunidos no mesmo projeto sem substituir as telas originais. As telas mobile continuam protótipos HTML separados; compartilhar login, dados, câmera e gravação entre páginas exige integração JavaScript/backend adicional. Recursos como câmera precisam de HTTPS ou localhost e permissões do navegador.
+
+Para testar localmente, use a extensão Live Server do VS Code e clique em “Go Live”.
+
+
+ATUALIZAÇÃO RESPONSIVA
+- Adicionei ajustes para celular, tablet, notebook e desktop nas páginas web principais.
+- Incluí uma barra de navegação comum para alternar entre as telas e acessar os protótipos mobile.
+- Para testar, abra index.html ou use Live Server no VS Code.
+- Os protótipos mobile continuam separados; sincronização de dados/login e câmera real não são automaticamente habilitadas por juntar HTML.
+
+
+ATUALIZAÇÃO DE REFERÊNCIA MOBILE
+A página mobile/index.html foi reorganizada com navegação mobile-first inspirada em padrões comuns de sites para celular: cartões de atalho, cabeçalho fixo, barra inferior e rolagem vertical. Mantém marca UP Eventos e cores escuras/douradas. Não copia literalmente o site de referência. A câmera da galeria depende de HTTPS/localhost e das permissões do dispositivo.
